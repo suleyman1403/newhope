@@ -2,9 +2,11 @@
 
 int main(){
     
-    int simple = 69;
-    int navi = 108;
+    int simple;
+    int navi;
 
+    scanf("%d %d", &simple, &navi);
+    
     int pose = simple + navi;
     printf("%d + %d = %i\n", simple, navi, pose);
     int iro = simple * navi;
